@@ -4,6 +4,7 @@ USE alx_book_store;
 -- Select the table structure from the information_schema
 SELECT 
     COLUMN_NAME AS 'Column Name',
+    COLUMN_TYPE AS 'Column Type',
     DATA_TYPE AS 'Data Type',
     CHARACTER_MAXIMUM_LENGTH AS 'Max Length',
     IS_NULLABLE AS 'Is Nullable',
